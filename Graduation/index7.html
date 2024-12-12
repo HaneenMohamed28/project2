@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reports</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style7.css">
+</head>
+
+<body>
+  <header class="top-bar">
+    <div class="top-bar-left">
+      <img src="image/menu-icon.png" alt="Menu" class="menu-icon" id="toggle-sidebar">
+      <img src="image/logo.svg" alt="Health Mate Logo" class="logo">
+      <span class="brand">Health Mate</span>
+    </div>
+    <div class="search-bar">
+      <input type="search" placeholder="Search">
+      <button class="search-icon-btn">
+        <img src="image/search-icon.svg" alt="Search Icon">
+      </button>
+    </div>
+    <div class="top-bar-right">
+      <div class="language-toggle">
+        <span>English(UK)</span>
+        <button id="language-btn">▼</button>
+        <div id="language-menu" class="dropdown hidden">
+          <span id="arabic">العربية</span>
+          <span id="english">English</span>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+
+  <div class="container">
+    <aside class="sidebar" id="sidebar">
+      <div class="profile">
+        <img src="image/profile-icon.svg" alt="Profile Icon">
+        <span>D. Ali Ahmed</span>
+      </div>
+      <hr>
+      <ul class="menu">
+        <li class="menu-item">
+          <a href="index2.html">
+            <img src="image/dashboard-icon.svg" alt="Dashboard Icon">
+            <span>Clinical Dashboard</span>
+            <img src="image/arrow.svg" alt="arrow" class="arrow">
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="index4.html">
+            <img src="image/settings-icon.svg" alt="Settings Icon">
+            <span>Setting</span>
+            <img src="image/arrow.svg" alt="arrow" class="arrow">
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="index5.html">
+            <img src="image/encounter-icon.svg" alt="Encounter Icon">
+            <span>New Encounter</span>
+            <img src="image/arrow.svg" alt="arrow" class="arrow">
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="index6.html">
+            <img src="image/chat-icon.svg" alt="Chat Icon">
+            <span>Chat Patient</span>
+            <img src="image/arrow.svg" alt="arrow" class="arrow">
+          </a>
+        </li>
+        <li class="menu-item active">
+          <a href="index7.html">
+            <img src="image/reports-icon-green.svg" alt="Reports Icon">
+            <span>Reports</span>
+            <img src="image/arrow-green.svg" alt="arrow" class="arrow">
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="privacy-policy.html">
+            <img src="image/privacy-icon.svg" alt="Privacy Icon">
+            <span>Privacy Policy</span>
+            <img src="image/arrow.svg" alt="arrow" class="arrow">
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="export.html">
+            <img src="image/export-icon.svg" alt="Export Icon">
+            <span>Export</span>
+            <img src="image/arrow.svg" alt="arrow" class="arrow">
+          </a>
+        </li>
+      </ul>
+      
+      <button class="menu-item btn-emergency">
+        <img src="image/emergency-icon.svg" alt="Emergency Icon">
+        <span>Emergency Contact</span>
+      </button>
+    </aside>
+
+
+    <div class="container2">
+    
+      <div class="summary">
+        <h2>Summary of Reports</h2>
+        <div class="cards">
+          <div class="card">
+            <p>Month Report</p>
+            <span>20</span>
+          </div>
+          <div class="card">
+            <p>Day Report</p>
+            <span>5</span>
+          </div>
+          <div class="card">
+            <p>Num Report</p>
+            <span>2</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="reports-container">
+        <div class="reports-header">The Reports</div>
+        <table class="reports-table">
+          <thead>
+            <tr>
+              <th>Patient's Name</th>
+              <th>The Date</th>
+              <th>The Report</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ahmed Ali</td>
+              <td>02/04/2023</td>
+              <td>Diabetes</td>
+            </tr>
+            <tr>
+              <td>Mahmoud Hamdy</td>
+              <td>05/12/2023</td>
+              <td>Headache</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+    
+  </div>
+
+  <script src="script7.js"></script>
+</body>
+
+</html>

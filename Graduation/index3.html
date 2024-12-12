@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patient Details</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+  <header class="top-bar">
+    <div class="top-bar-left">
+      <img src="image/menu-icon.png" alt="Menu" class="menu-icon" id="toggle-sidebar">
+      <img src="image/logo.svg" alt="Health Mate Logo" class="logo">
+      <span class="brand">Health Mate</span>
+    </div>
+    <div class="search-bar">
+      <input type="search" placeholder="Search">
+      <button class="search-icon-btn">
+        <img src="image/search-icon.svg" alt="Search Icon">
+      </button>
+    </div>
+    <div class="top-bar-right">
+      <div class="language-toggle">
+        <span>English(UK)</span>
+        <button id="language-btn">▼</button>
+        <div id="language-menu" class="dropdown hidden">
+          <span id="arabic">العربية</span>
+          <span id="english">English</span>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+
+  <div class="container">
+    <aside class="sidebar" id="sidebar">
+      <div class="profile">
+        <img src="image/profile-icon.svg" alt="Profile Icon">
+        <span>D. Ali Ahmed</span>
+      </div>
+      <hr>
+      <ul class="menu">
+        <li class="menu-item active">
+          <a href="index2.html">
+            <img src="image/dashboard-icon-green.svg" alt="Dashboard Icon">
+            <span>Clinical Dashboard</span>
+            <img src="image/arrow-green.svg" alt="arrow" class="arrow">
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="index4.html">
+            <img src="image/settings-icon.svg" alt="Settings Icon">
+            <span>Setting</span>
+            <img src="image/arrow.svg" alt="arrow" class="arrow">
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="index5.html">
+            <img src="image/encounter-icon.svg" alt="Encounter Icon">
+            <span>New Encounter</span>
+            <img src="image/arrow.svg" alt="arrow" class="arrow">
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="index6.html">
+            <img src="image/chat-icon.svg" alt="Chat Icon">
+            <span>Chat Patient</span>
+            <img src="image/arrow.svg" alt="arrow" class="arrow">
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="index7.html">
+            <img src="image/reports-icon.svg" alt="Reports Icon">
+            <span>Reports</span>
+            <img src="image/arrow.svg" alt="arrow" class="arrow">
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="privacy-policy.html">
+            <img src="image/privacy-icon.svg" alt="Privacy Icon">
+            <span>Privacy Policy</span>
+            <img src="image/arrow.svg" alt="arrow" class="arrow">
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="export.html">
+            <img src="image/export-icon.svg" alt="Export Icon">
+            <span>Export</span>
+            <img src="image/arrow.svg" alt="arrow" class="arrow">
+          </a>
+        </li>
+      </ul>
+      
+      <button class="menu-item btn-emergency">
+        <img src="image/emergency-icon.svg" alt="Emergency Icon">
+        <span>Emergency Contact</span>
+      </button>
+    </aside>
+
+
+    <div class="container2">
+      
+      <div class="profile-card">
+        <div class="icon">
+          <img src="image/profile-icon.svg" alt="Profile Icon">
+        </div>
+        <h1 class="name">Ahmed Ali</h1>
+      </div>
+
+      <div class="data-card">
+        <h2>Data</h2>
+        <p>Smoker</p>
+        <div class="details">
+          <p>Weight: 80k</p>
+          <p>Age: 25</p>
+          <p>Height: 165cm</p>
+          <p>Last Visit: 28/4/2024</p>
+        </div>
+      </div>
+    
+      <div class="health-trends-card">
+        <h2>Health Trends</h2>
+        <div class="details">
+          <p>Disease: Diabetes</p>
+          <p>Pressure: 140/80</p>
+        </div>
+        <p>Pharmaceutical: Metformin</p>
+        <p>Condition: Stable</p>
+      </div>      
+    
+      <div class="record-card">
+        <div class="record">
+          <p>Date: 01/01/2023</p>
+          <p>Num: 3</p>
+          <p>Image of blood</p>
+        </div>
+        <div class="record">
+          <p>Date: 15/01/2023</p>
+          <p>Num: 2</p>
+          <p>X-ray</p>
+        </div>
+      </div>
+      
+
+    </div>
+
+  </div>
+  <script src="script3.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Setting</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+  <header class="top-bar">
+    <div class="top-bar-left">
+      <img src="image/menu-icon.png" alt="Menu" class="menu-icon" id="toggle-sidebar">
+      <img src="image/logo.svg" alt="Health Mate Logo" class="logo">
+      <span class="brand">Health Mate</span>
+    </div>
+    <div class="search-bar">
+      <input type="search" placeholder="Search">
+      <button class="search-icon-btn">
+        <img src="image/search-icon.svg" alt="Search Icon">
+      </button>
+    </div>
+    <div class="top-bar-right">
+      <div class="language-toggle">
+        <span>English(UK)</span>
+        <button id="language-btn">▼</button>
+        <div id="language-menu" class="dropdown hidden">
+          <span id="arabic">العربية</span>
+          <span id="english">English</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar" id="sidebar">
+      <div class="profile">
+        <img src="image/profile-icon.svg" alt="Profile Icon">
+        <span>D. Ali Ahmed</span>
+      </div>
+      <hr>
+      <ul class="menu">
+        <li class="menu-item">
+          <a href="index2.html">
+            <img src="image/dashboard-icon.svg" alt="Dashboard Icon">
+            <span>Clinical Dashboard</span>
+            <img src="image/arrow.svg" alt="arrow" class="arrow">
+          </a>
+        </li>
+        <li class="menu-item active">
+          <a href="index4.html">
+            <img src="image/settings-icon-green.svg" alt="Settings Icon">
+            <span>Setting</span>
+            <img src="image/arrow-green.svg" alt="arrow" class="arrow">
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="index5.html">
+            <img src="image/encounter-icon.svg" alt="Encounter Icon">
+            <span>New Encounter</span>
+            <img src="image/arrow.svg" alt="arrow" class="arrow">
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="index6.html">
+            <img src="image/chat-icon.svg" alt="Chat Icon">
+            <span>Chat Patient</span>
+            <img src="image/arrow.svg" alt="arrow" class="arrow">
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="index7.html">
+            <img src="image/reports-icon.svg" alt="Reports Icon">
+            <span>Reports</span>
+            <img src="image/arrow.svg" alt="arrow" class="arrow">
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="privacy-policy.html">
+            <img src="image/privacy-icon.svg" alt="Privacy Icon">
+            <span>Privacy Policy</span>
+            <img src="image/arrow.svg" alt="arrow" class="arrow">
+          </a>
+        </li>
+        <li class="menu-item">
+          <a href="export.html">
+            <img src="image/export-icon.svg" alt="Export Icon">
+            <span>Export</span>
+            <img src="image/arrow.svg" alt="arrow" class="arrow">
+          </a>
+        </li>
+      </ul>
+      <button class="menu-item btn-emergency">
+        <img src="image/emergency-icon.svg" alt="Emergency Icon">
+        <span>Emergency Contact</span>
+      </button>
+    </aside>
+
+    <div class="container2">
+
+      <div class="form-container">
+        <form id="user-form">
+          <div class="form-group">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" id="name" name="name" class="form-input" value="D.Ali Ahmed">
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" name="email" class="form-input" value="aliahmed@gmail.com">
+          </div>
+          <div class="form-group">
+            <label for="specialist" class="form-label">Specialist</label>
+            <input type="text" id="specialist" name="specialist" class="form-input" value="Heart Diseases">
+          </div>
+          <div class="form-group">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" id="password" name="password" class="form-input" value="*********">
+          </div>
+          <button type="submit" class="form-button">Save Changes</button>
+        </form>
+      </div>
+      
+    </div>
+    
+  </div>
+
+  <script src="script4.js"></script>
+</body>
+
+</html>
